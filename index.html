@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <title>Survey Form</title>
+  <body>
+    <h1 id="title">Survey Form<h1>
+    <p id="description">Thank You For Giving Your Time To Improve Me</p>
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label"> Name <input placeholder="Enter Your Name" id="name" type="text" required></input></label>
+    <label id="email-label"> E-mail <input placeholder="Enter your E-mail"id="email" type="email" required></input></label>
+    <label id="number-label">Age<input placeholder="Enter Your Age" id="number" type="number" min="13" max="100"></input></label>
+    <label id="role">
+      Which option describes your current role?
+      <select id="dropdown">
+        <option>Select current role</option>
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+     </select>
+    </label>
+    <label>Would you like to recommend me furuther?</label>
+    <label class="option1"><input type="radio" value="yes"class="options1"name="recommend"></input>Yes</label>
+    <label class="option2"><input type="radio" class="options2"name="recommend" value="no"></input>No</label>
+    <label>
+      How would you like me to improve?(Select all that apply)</label>
+      <label class="Improvement"><input type="checkbox" value="1"></input>Improve my CSS</label>
+      <label class="Improvement"><input type="checkbox" value="2"></input>Improve my HTML</label>
+      <label class="Improvement"><input type="checkbox" value="3"></input>Improve my Presentation</label>
+      <label class="Improvement"><input type="checkbox" value="4"></input>Improve Best Practices</label>
+      <label class="Improvement"><input type="checkbox" value="5"></input>Improve Overall Skills</label>
+<label class="comments">Any other Comments or Suggestion ?</label>
+<textarea placeholder="Enter Here...." row="6" cols="30"></textarea>
+    
+
+
+
+  </fieldset>
+<input type="submit" id="submit" value="Submit"></input>
+  </form>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+
+
+label{
+  display:block;
+}
+#name,#email,#number{
+  display:block;
+}
+
+body{
+background-image:url(https://t4.ftcdn.net/jpg/01/79/08/75/360_F_179087574_aXjXMWEtMCpcB7hiOW7gjomzJKz4i1Y8.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment: fixed; 
+color:white;
+;
+  
+}
+#title{text-align:center}
+#description{text-align:center;}
+#role,#dropdown{display:block;}
+#recommend{
+  display:block;
+}
+
+.option1,.options1,.option2,.options2{display:auto;}
+fieldset{
+  background-color:#2f3adfcc;
+  color:white;
+  font-size:20px;
+  margin-left:60;
+  margin-right:60;
+}
+input[type="checkbox"]{display:auto}
+.improvement{display:block;}
+
+#submit{width:90%;
+background-color:#767dd9;
+border:none;
+height:6%;
+font-size:15px;
+margin:2em;
+margin-left:60;
+margin-right:60;}
+
+.comments{margin-top:2;
+margin-bottom:8}
+
+
+
